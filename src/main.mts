@@ -78,5 +78,5 @@ async function downloadImage(image: ImageDetails, folder: string) {
   const buffer = await imgResponse.arrayBuffer();
 
   // save to fs
-  fs.writeFileSync(`${folder}/${image.filename}`, Buffer.from(buffer));
+  fs.writeFileSync(`${folder}/${image.filename}.jpg`, Buffer.from(buffer));
 }
