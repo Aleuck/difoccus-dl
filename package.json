@@ -1,6 +1,6 @@
 {
   "name": "difoccus-dl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.mts",

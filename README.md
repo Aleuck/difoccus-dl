@@ -3,7 +3,7 @@
 ## Como usar
 
 ```bash
-npx difoccus-dl -s <sessao> -c <contrato> -e <evento...>
+npx difoccus-dl -c <contrato> -e <evento...>
 ```
 
 Você precisa do código do contrato e dos eventos, é possível adquirir a partir da chamada à Api quando se abre uma galeria de fotos.
