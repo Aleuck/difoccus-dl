@@ -3,16 +3,12 @@ import { program } from "commander";
 
 type ImageDetails = { z; filename: string; original: string; thumb: string };
 
-let session = "";
+let session = "notneeeded";
 let contrato = "";
 let eventos: string[] = [];
 
-program.requiredOption("-s, --session <string>", "session id");
 program.requiredOption("-c, --contrato <contrato>", "contract id");
-program.requiredOption(
-  "-e, --eventos <eventos...>",
-  "event ids separated by comma"
-);
+program.requiredOption("-e, --eventos <eventos...>", "event ids");
 program.parse();
 const options = program.opts();
 
