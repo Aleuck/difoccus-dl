@@ -4,6 +4,10 @@
   "description": "",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.mts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleuck/difoccus-dl.git"
+  },
   "files": [
     "dist/main.mjs",
     "README.md",
