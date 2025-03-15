@@ -1,6 +1,6 @@
 {
   "name": "difoccus-dl",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.mts",
@@ -24,7 +24,8 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "build": "pkgroll"
+    "build": "pkgroll",
+    "dl": "tsx src/main.mts"
   },
   "packageManager": "pnpm@10.4.0+sha512.6b849d0787d97f8f4e1f03a9b8ff8f038e79e153d6f11ae539ae7c435ff9e796df6a862c991502695c7f9e8fac8aeafc1ac5a8dab47e36148d183832d886dd52",
   "dependencies": {
@@ -35,7 +36,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.13.10",
-    "typescript": "^5.8.2",
-    "pkgroll": "^2.11.2"
+    "pkgroll": "^2.11.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
   }
 }
