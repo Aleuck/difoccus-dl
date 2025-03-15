@@ -1,6 +1,6 @@
 {
   "name": "difoccus-dl",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.mts",
@@ -9,8 +9,9 @@
     "url": "git+https://github.com/Aleuck/difoccus-dl.git"
   },
   "files": [
-    "dist/main.mjs",
+    "LICENSE",
     "README.md",
+    "dist/main.mjs",
     "docs/*"
   ],
   "exports": {
@@ -27,13 +28,13 @@
   },
   "packageManager": "pnpm@10.4.0+sha512.6b849d0787d97f8f4e1f03a9b8ff8f038e79e153d6f11ae539ae7c435ff9e796df6a862c991502695c7f9e8fac8aeafc1ac5a8dab47e36148d183832d886dd52",
   "dependencies": {
-    "@types/node": "^22.13.10",
     "commander": "^13.1.0"
   },
   "bin": {
     "difoccus-dl": "dist/main.mjs"
   },
   "devDependencies": {
+    "@types/node": "^22.13.10",
     "typescript": "^5.8.2",
     "pkgroll": "^2.11.2"
   }
